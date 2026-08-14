@@ -1,0 +1,38 @@
+name: robotech_flutter_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/ChatGPT Image Aug 14, 2026, 01_06_47 PM.png
+    - lib/assets/logo.png
+    - lib/assets/headphone.png
+    - lib/assets/phone.png
+    - lib/assets/laptop.png
+    - lib/assets/smartwatch.png
+    - lib/assets/iphone 17 pro max .png
+    - lib/assets/iphone 17.png
+    - lib/assets/iphone 15.png
+    - lib/assets/laptop 2026.png
+    - lib/assets/laptop 2025.png
+    - lib/assets/mac neo.png
+    - lib/assets/black watch.png
+    - lib/assets/grey watch.png
+    - lib/assets/white headphone.png
+    - lib/assets/black headphone.png
+    - lib/assets/all.png
