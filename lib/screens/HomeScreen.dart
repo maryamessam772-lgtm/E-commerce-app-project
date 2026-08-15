@@ -8,6 +8,7 @@ class Homescreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFF7F3EA),
       body: Column(
         children: [
           SizedBox(height: 30),
@@ -68,7 +69,7 @@ class Homescreen extends StatelessWidget {
                     width: double.infinity,
                     margin: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
-                      color: const Color(0xffeef8e9),
+                      color: const Color.fromARGB(255, 233, 250, 224),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Row(
@@ -130,7 +131,7 @@ class Homescreen extends StatelessWidget {
                       width: double.infinity,
                       margin: const EdgeInsets.all(20),
                       decoration: BoxDecoration(
-                        color: const Color(0xffeef8e9),
+                        color: const Color.fromARGB(255, 233, 250, 224),
                         borderRadius: BorderRadius.circular(12),
                       ),
 
@@ -232,7 +233,7 @@ class Homescreen extends StatelessWidget {
                               width: 70,
                               height: 70,
                               decoration: BoxDecoration(
-                                color: Colors.grey.shade100,
+                                color: Colors.white,
                                 borderRadius: BorderRadius.circular(20),
                               ),
 
@@ -262,7 +263,7 @@ class Homescreen extends StatelessWidget {
                               width: 70,
                               height: 70,
                               decoration: BoxDecoration(
-                                color: Colors.grey.shade100,
+                                color: Colors.white,
                                 borderRadius: BorderRadius.circular(20),
                               ),
 
@@ -293,7 +294,7 @@ class Homescreen extends StatelessWidget {
                               width: 70,
                               height: 70,
                               decoration: BoxDecoration(
-                                color: Colors.grey.shade100,
+                                color: Colors.white,
                                 borderRadius: BorderRadius.circular(20),
                               ),
                               child: Transform.scale(
@@ -324,7 +325,7 @@ class Homescreen extends StatelessWidget {
                               width: 70,
                               height: 70,
                               decoration: BoxDecoration(
-                                color: Colors.grey.shade100,
+                                color: Colors.white,
                                 borderRadius: BorderRadius.circular(20),
                               ),
                               child: Transform.scale(
@@ -355,7 +356,7 @@ class Homescreen extends StatelessWidget {
                               width: 70,
                               height: 70,
                               decoration: BoxDecoration(
-                                color: Colors.grey.shade100,
+                                color: Colors.white,
                                 borderRadius: BorderRadius.circular(20),
                               ),
                               child: Transform.scale(
@@ -435,13 +436,9 @@ class Homescreen extends StatelessWidget {
                                                 child: ElevatedButton(
                                                   onPressed: () {},
                                                   style: ElevatedButton.styleFrom(
-                                                    backgroundColor:
-                                                        const Color.fromARGB(
-                                                          255,
-                                                          95,
-                                                          162,
-                                                          61,
-                                                        ),
+                                                    backgroundColor: Color(
+                                                      0xFF8FA888,
+                                                    ),
                                                     foregroundColor:
                                                         Colors.white,
 
@@ -507,13 +504,9 @@ class Homescreen extends StatelessWidget {
                                                   child: ElevatedButton(
                                                     onPressed: () {},
                                                     style: ElevatedButton.styleFrom(
-                                                      backgroundColor:
-                                                          const Color.fromARGB(
-                                                            255,
-                                                            95,
-                                                            162,
-                                                            61,
-                                                          ),
+                                                      backgroundColor: Color(
+                                                        0xFF8FA888,
+                                                      ),
                                                       foregroundColor:
                                                           Colors.white,
 
@@ -551,3 +544,4 @@ class Homescreen extends StatelessWidget {
     );
   }
 }
+
